@@ -1,8 +1,11 @@
 import React from 'react'
-import {HashRouter as Router} from 'react-router-dom'
-
-
+import {HashRouter as Router, Route} from 'react-router-dom'
+import Home from './Home'
+import Menu from './Menu'
+import Facilities from './Facilities'
+import Events from './Events'
 import Rules from './Rules'
+import Nav from './Nav'
 
 const App = () => {
   return (
@@ -14,7 +17,6 @@ const App = () => {
           <div className='content'>
             <Route path='/facilities' component={Facilities} />
             <Route path='/menu' component={Menu} />
-            <Route path='/facilities' component={Facilities} />
             <Route path='/events' component={Events} />
             <Route path='/rules' component={Rules} />
             <Route path='/' component={Home} />
