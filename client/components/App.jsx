@@ -1,20 +1,14 @@
 import React from 'react'
-import {HashRouter as Router, Route} from 'react-router-dom'
-import Nav from './Nav'
-import Home from './Home'
-import Menu from './Menu'
-import Facilities from './Facilities'
-import Events from './Events'
+import {HashRouter as Router} from 'react-router-dom'
+
+
 import Rules from './Rules'
 
 const App = () => {
   return (
     <Router>
-      <div>
-
-        <div className='nav'>
-          <Nav />
-        </div>
+      <div className='container'>
+        <Nav />
 
         <div className='frame'>
           <div className='content'>
@@ -24,6 +18,7 @@ const App = () => {
             <Route path='/events' component={Events} />
             <Route path='/rules' component={Rules} />
             <Route path='/' component={Home} />
+
           </div>
         </div>
 
@@ -33,4 +28,3 @@ const App = () => {
 }
 
 export default App
-git 
