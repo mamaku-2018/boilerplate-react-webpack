@@ -1,10 +1,17 @@
 import React from 'react'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
-const Facilities = () => {
+import Sandwich from '../../images/facilities-sandwhich'
+
+const Facilities = (props) => {
   return (
     <div>
-      Fac
+      <div>
+        <h2>Facilities</h2>
+      </div>
+      <div className ='sandwich'>
+        <Sandwich image={props.image} alt={props.name} />
+      </div>
     </div>
   )
 }

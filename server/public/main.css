@@ -24,4 +24,9 @@ body {
 
 /* Caitlyn Facilities */
 
+.custom {
+  cursor: url(./images/facilities-cursor.png), auto;
+}
+
+
 /* Anthony Menu/Shopping */
