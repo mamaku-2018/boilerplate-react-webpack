@@ -13,6 +13,9 @@ const Facilities = (props) => {
       <div className='fac-sparkle'>
         <img src='../../images/fac-sparlkle.gif'/>
       </div>
+      <div className='fac-plunger'>
+        <img src='../../images/fac-plunger.png'/>
+      </div>
       <div className='fac-list'>
         <ul>
           <li>3 x fridges</li>
