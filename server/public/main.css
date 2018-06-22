@@ -151,11 +151,29 @@ html, body {
   text-transform: uppercase;  
 }
 
+#event-contents {
+  position: relative;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  width: 70%;
+  font-family: 'Comic Sans MS', cursive;
+  text-transform: uppercase;  
+}
+
 
 #event-thought {
   width: 40%;
   left: 20%;
   margin-top: 2%
+}
+
+.event-submarine {
+  position: absolute; left: 750px; top:600px;
+}
+
+.event-missile {
+  position: absolute; left: 1050px; top:530px;
 }
 
 /* Caitlyn Facilities */
