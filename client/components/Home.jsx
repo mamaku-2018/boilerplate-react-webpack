@@ -5,20 +5,30 @@ class Home extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      meow: new Audio('../public/audio/Cat_Meow.mp3')
+      word: 'Cafe Kihini'
     }
-    this.playSound = this.playSound.bind(this)
+    this.changeWord = this.changeWord.bind(this)
+    this.endWord = this.endWord.bind(this)
   }
-  playSound () {
-    this.state.meow.play()
+
+  changeWord () {
+    this.setState({
+      word: 'Meow Meow'
+    })
+  }
+
+  endWord () {
+    this.setState({
+      word: 'Come eat!'
+    })
   }
 
   render () {
     return (
       <div className='content-home'>
-        <div id='title'>
-          <img id='thought' onMouseOver={this.playSound} src='images/thought.png' alt='thought bubble'/>
-          <h1 id='main-title'>Cafe Kihini</h1>
+        <div id='title' onMouseOver={this.changeWord} onMouseLeave={this.endWord}>
+          <img id='thought' src='images/thought.png' alt='thought bubble'/>
+          <h1 id='main-title'>{this.state.word}</h1>
         </div>
         <img id='toast' src='images/toaster.png' alt='toaster'/>
       </div>
