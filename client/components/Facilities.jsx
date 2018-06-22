@@ -10,12 +10,9 @@ const Facilities = (props) => {
       <div className='fac-pic'>
         <img src='../../images/panslab.jpeg'/>
       </div>
-      {/* <div className='fac-corn drill'>
-        <img src='../../images/facilities-corn-drill.gif'/>
+      <div className='fac-sparkle'>
+        <img src='../../images/fac-sparlkle.gif'/>
       </div>
-      <div className='fac-knife'>
-        <img src='../../images/facilities-knife.gif'/>
-      </div> */}
       <div className='fac-list'>
         <ul>
           <li>3 x fridges</li>
