@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  border: 0.2px solid transparent;
+  border: 0.0px solid red;
 }
 
 html, body {
@@ -157,7 +157,7 @@ html, body {
   font-size: 50px;
   color: white;
   text-align: left;
-  width: 20%;
+  width: 40%;
   font-family: 'Comic Sans MS', cursive;
   text-transform: uppercase;  
 }
@@ -179,13 +179,18 @@ html, body {
   margin-top: 2%
 }
 
-.event-submarine {
-  position: absolute; left: 750px; top:600px;
+.eventvid {
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-right: 10%;
+  top: -45%;
 }
 
-.event-missile {
-  position: absolute; left: 1050px; top:530px;
+#event-video {
+  float: right;
 }
+
 
 /* Caitlyn Facilities */
 
