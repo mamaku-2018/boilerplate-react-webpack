@@ -19,7 +19,7 @@ class Home extends React.Component {
 
   endWord () {
     this.setState({
-      word: 'Come eat!'
+      word: 'Lets eat!'
     })
   }
 
