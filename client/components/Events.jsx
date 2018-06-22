@@ -3,6 +3,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 const Events = () => {
   return (
+
     <div className='event-home'>
       <div id='title'>
         <h1 id='event-title'>Event in Cafekihini</h1>
