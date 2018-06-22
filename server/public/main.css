@@ -115,15 +115,18 @@ html, body {
 
 /* Indi Rules */
 
-
 .rules{
-  background: url('./images/partial.jpg') no-repeat;
+  background: url('./images/partial.jpg') no-repeat left;
   color: white;
-  margin: 3em 0 0 0;
-  text-indent: 2em;
-  background-size: cover;
-
+  margin-top: 4.5%;
+  background-size: 100% 100%;
+  margin-left: 0;
+  width: 100%;
+  float: left;
 }
+
+
+
 .darules {
   color: white;
   font-family: 'Bangers', cursive;
@@ -131,8 +134,8 @@ html, body {
   font-size: 3em;
   line-height: 2.5em ;
   font-style: center;
+  text-indent: 4em;
 }
-
 
 .spaceout ol {
   line-height: 2.2rem;
@@ -140,10 +143,22 @@ html, body {
   text-indent: -2em;
   font-family: 'Bangers', cursive;
   word-spacing: 0.2em ;
+  text-indent: 4em;
 }
 
+.top {
+
+  background-color: orangered;
+}
+
+.bottom {
+  background-color: orangered;
+  width: 100%;
+  height:6rem;
+}
 #majorgif {
   float:right;
+
 }
 
 /* Shane Events */
