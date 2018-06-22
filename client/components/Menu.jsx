@@ -12,16 +12,20 @@ class Menu extends React.Component {
   }
 
   addItem () {
-
+    this.setState({
+      currentList: [...this.state.currentList, this.state.newItems]
+    })
   }
 
   updateNewItems (e) {
-
+    this.setState({
+      newItems: e.target.value
+    })
   }
 
   render () {
     return (
-      <div>
+      <div className="menuBox">
         <h2>Shopping List</h2>
         <input type="text" name="shopping" onChange={this.updateNewItems}/>
         <button onClick={this.addItem}>Add</button>
