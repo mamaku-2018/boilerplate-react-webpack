@@ -2,7 +2,8 @@
 
 * {
   box-sizing: border-box;
-  /* border: 0.2px solid transparent; */
+
+/* border: 0.2px solid transparent; */
 }
 
 html, body {
@@ -141,12 +142,62 @@ html, body {
 
 /* Shane Events */
 .event-div{
-  background: url('./images/original.jpg') no-repeat 50% 50% fixed;
+  background: url('./images/event.jpg') no-repeat 100% 100% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.event-home {
+  margin-top: 1%;
+  margin-left: 2%;
+  min-width: 100vw;
+  height: 600px;
+  background: url('images/original.jpg') no-repeat left top;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+#event-title {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  width: 40%;
+  font-family: 'Comic Sans MS', cursive;
+  text-transform: uppercase;  
+}
+
+#event-contents {
+  position: relative;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  width: 70%;
+  font-family: 'Comic Sans MS', cursive;
+  text-transform: uppercase;  
+}
+
+
+#event-thought {
+  width: 40%;
+  left: 20%;
+  margin-top: 2%
+}
+
+.eventvid {
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-right: 10%;
+  top: -45%;
+}
+
+#event-video {
+  float: right;
+}
+
 
 /* Caitlyn Facilities */
 
