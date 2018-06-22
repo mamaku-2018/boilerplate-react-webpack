@@ -1,12 +1,14 @@
 import React from 'react'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
+import Music from './images/music.mp3'
 
 const Rules = () => {
   return (
 
     <div className='rules'>
       <h1 className='darules'>No rules ... create our own rules</h1>
-      <img href='../images/majorgif.gif' id='majorgif' type='img'/>
+      <img src='../images/majorgif.gif' id='majorgif' type='img'/>
+
       <ul className='spaceout'>
         <ol>  <strong>#1 </strong>  Do the opposite always, choose to deal with the consequences.</ol>
         <ol>  <strong>#2 </strong>  Question, everything including the purpose of a rule.</ol>
